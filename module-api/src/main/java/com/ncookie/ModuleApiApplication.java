@@ -1,4 +1,4 @@
-package com.ncookie.moduleapi;
+package com.ncookie;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
