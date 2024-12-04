@@ -38,3 +38,6 @@ dependencies {
 tasks.named('test') {
     useJUnitPlatform()
 }
+
+tasks.bootJar { enabled = false }    // common 모듈은 다른 모듈에서 참조하는 목적의 모듈이므로 실행 가능한 jar 파일을 만들 필요가 없음
+tasks.jar { enabled = true }
